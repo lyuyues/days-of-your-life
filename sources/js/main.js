@@ -11,9 +11,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
     //User's birth date object
     var user_date = {
-        year: false,
-        month: false,
-        day: false,
+        year: 1989,
+        month: 03,
+        day: 16,
         set: function (d, m, y) {
             this.day = parseInt(d, 10);
             this.month = parseInt(m, 10);
